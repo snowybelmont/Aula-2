@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+::selection {
+    background-color: #b1c149;
+    color: #1c1c1c;
+}
+
+body {
+    background-color: #121521;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 120px;
+    border-bottom: 2px solid #b1c149;
+    padding: 20px;
+}
+
+#title {
+    font-family: 'Nunito', sans-serif;
+    color: #b1c149;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #c1c3ca;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 20px;
+}
+
+.product {
+    width: 25%;
+    margin: 15px;
+    float: left; 
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8%;
+}
+
+.product img:hover {
+    box-shadow: 2px 2px 10px #22283a;
+}
+
+a {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #b1c149;
+    text-decoration: none;
+}
+
+p {
+    margin: 4px;
+    text-align: center;
+    min-height: '100px';
+    
+}
+
+p:hover {
+    color: #e8ff4b;
+}
+
+footer {
+    clear: both;
+    background-color: #121521;
+    padding: 20px;
+}
+
+li {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #c1c3ca;
+}
